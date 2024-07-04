@@ -13,15 +13,15 @@ This network sniffer captures Ethernet frames and processes various network laye
 
 **Detailed Header Parsing:** Extracts and displays crucial header information:
 
-  -**Ethernet Header:** Source and destination MAC addresses, protocol type.
+   -    **Ethernet Header:** Source and destination MAC addresses, protocol type.
 
-  -**IPv4 Header:** Version, header length, TTL, protocol, source and destination IP addresses.
+   -    **IPv4 Header:** Version, header length, TTL, protocol, source and destination IP addresses.
 
-   -**TCP Header:** Source and destination ports, sequence number, acknowledgment number, and flags (`URG`, `ACK`, `PSH`, `RST`, `SYN`, `FIN`).
+   -    **TCP Header:** Source and destination ports, sequence number, acknowledgment number, and flags (`URG`, `ACK`, `PSH`, `RST`, `SYN`, `FIN`).
 
-   -**UDP Header:** Source and destination ports, length, and checksum.
+   -    **UDP Header:** Source and destination ports, length, and checksum.
 
-   -**ICMP Header:** Type, code, and checksum.
+   -    **ICMP Header:** Type, code, and checksum.
 
 **User-Friendly Output:** Presents parsed data in a clear and structured format, making it easy to understand and analyze network activity.
 
@@ -32,6 +32,15 @@ This network sniffer captures Ethernet frames and processes various network laye
 `socket library`
 `struct library`
 `sys library`
+
+## Supportive Resources
+To help you understand how this network sniffer works and to deepen your knowledge of networking concepts, here are some resources that were instrumental in achieving this project:
+-         https://www.geeksforgeeks.org/tcp-ip-model/
+-         https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/
+-         https://www.fortinet.com/resources/cyberglossary/network-traffic
+-         https://youtu.be/uagKTbohimU?si=UxtWhaebrlkvWH__
+-         https://www.uv.mx/personal/angelperez/files/2018/10/sniffers_texto.pdf
+-         https://tools.ietf.org/html/rfc791
 
 ## Note
 This script requires root privileges to access the network interface for capturing packets. Ensure you run the script with `sudo` or as the root user to avoid permission errors.
