@@ -39,4 +39,5 @@ To help you understand how this network sniffer works and to deepen your knowled
 -    **INTERNET PROTOCOL:**            https://tools.ietf.org/html/rfc791
 
 ## Note
+      sudo ./Basic_Network_Sniffer.py
 This script requires root privileges to access the network interface for capturing packets. Ensure you run the script with `sudo` or as the root user to avoid permission errors.
