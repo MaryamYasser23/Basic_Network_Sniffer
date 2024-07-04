@@ -1,5 +1,5 @@
 # Basic Network Sniffer
-This project is a part of my CodeAlpha internship. It involves building a network sniffer in Python that captures and analyzes network traffic.
+This project is a part of my CodeAlpha internship. It involves building a network sniffer in Python for Linux OS that captures and analyzes network traffic.
 
 ## Overview
 This network sniffer captures Ethernet frames and processes various network layer protocols including `IPv4`, `TCP`, `UDP`, and `ICMP`. The script uses raw sockets to capture packets and provides detailed information about the packets in a structured format.
