@@ -36,11 +36,11 @@ This network sniffer captures Ethernet frames and processes various network laye
 ## Supportive Resources
 To help you understand how this network sniffer works and to deepen your knowledge of networking concepts, here are some resources that were instrumental in achieving this project:
 -    **TCP/IP Model:** https://www.geeksforgeeks.org/tcp-ip-model/
--    **Layers of OSI Model:** https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/
--    **What is Network Traffic?** https://www.fortinet.com/resources/cyberglossary/network-traffic
--    **Sockets in Operating System:** https://youtu.be/uagKTbohimU?si=UxtWhaebrlkvWH__
--    **Packet sniffer in Python:** https://www.uv.mx/personal/angelperez/files/2018/10/sniffers_texto.pdf
--    **INTERNET PROTOCOL:** https://tools.ietf.org/html/rfc791
+-    **Layers of OSI Model:**          https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/
+-    **What is Network Traffic?**      https://www.fortinet.com/resources/cyberglossary/network-traffic
+-    **Sockets in Operating System:**  https://youtu.be/uagKTbohimU?si=UxtWhaebrlkvWH__
+-    **Packet sniffer in Python:**     https://www.uv.mx/personal/angelperez/files/2018/10/sniffers_texto.pdf
+-    **INTERNET PROTOCOL:**            https://tools.ietf.org/html/rfc791
 
 ## Note
 This script requires root privileges to access the network interface for capturing packets. Ensure you run the script with `sudo` or as the root user to avoid permission errors.
