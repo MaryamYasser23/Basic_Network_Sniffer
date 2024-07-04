@@ -19,9 +19,9 @@ This network sniffer captures Ethernet frames and processes various network laye
 
 ## Requirements
 `python3`
-`socket` library
-`struct` library
-`sys` library
+`socket library`
+`struct library`
+`sys library`
 
 ## Note
 This script requires root privileges to access the network interface for capturing packets. Ensure you run the script with `sudo` or as the root user to avoid permission errors.
