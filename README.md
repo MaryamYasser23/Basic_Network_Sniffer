@@ -13,15 +13,15 @@ This network sniffer captures Ethernet frames and processes various network laye
 
 **Detailed Header Parsing:** Extracts and displays crucial header information:
 
-		**Ethernet Header:** Source and destination MAC addresses, protocol type.
+-**Ethernet Header:** Source and destination MAC addresses, protocol type.
 
-		**IPv4 Header:** Version, header length, TTL, protocol, source and destination IP addresses.
+-**IPv4 Header:** Version, header length, TTL, protocol, source and destination IP addresses.
 
-		**TCP Header:** Source and destination ports, sequence number, acknowledgment number, and flags (`URG`, `ACK`, `PSH`, `RST`, `SYN`, `FIN`).
+-**TCP Header:** Source and destination ports, sequence number, acknowledgment number, and flags (`URG`, `ACK`, `PSH`, `RST`, `SYN`, `FIN`).
 
-		**UDP Header:** Source and destination ports, length, and checksum.
+-**UDP Header:** Source and destination ports, length, and checksum.
 
-		**ICMP Header:** Type, code, and checksum.
+-**ICMP Header:** Type, code, and checksum.
 
 **User-Friendly Output:** Presents parsed data in a clear and structured format, making it easy to understand and analyze network activity.
 
